@@ -1,2 +1,1 @@
-# dokuwiki
-Dockerfile for dokuwiki.
+# My dockerfile for etherpad
