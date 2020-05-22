@@ -13,6 +13,7 @@ if test -s node-v12.16.3-linux-x64.tar.xz
 	then echo "nodejs exists"
 	else wget https://nodejs.org/dist/v12.16.3/node-v12.16.3-linux-x64.tar.xz
 fi
+
 }
 
 get-settings () {
@@ -21,6 +22,8 @@ if test -e settings.json
 	else wget https://raw.githubusercontent.com/habbis/etherpad-settings/master/settings.json
 fi
 }
+
+tar xJvf *.tar.xz
 
 get-etherpad
 get-nodejs
