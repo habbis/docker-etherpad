@@ -10,7 +10,8 @@ It will get
 
 
 To buil image use these command in the directory
-
+```
 docker build -t yourname:youtag .
 
 podman build -t yourname:youtag .
+```
