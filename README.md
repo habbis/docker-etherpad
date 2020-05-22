@@ -9,7 +9,7 @@ It will get
 - [etherpad-lite](https://github.com/ether/etherpad-lite/archive/1.8.4.zip)
 
 
-To buil image
+To buil image use these command in the directory
 
 docker build -t yourname:youtag .
 
