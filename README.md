@@ -1,2 +1,2 @@
-# docker-etherpad
-My dockerfile for etherpad
+# dokuwiki
+Dockerfile for dokuwiki.
